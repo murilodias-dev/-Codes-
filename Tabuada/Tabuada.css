@@ -1,0 +1,87 @@
+@font-face {
+    font-family:  'Lobster';
+    src: url('Lobster-Regular') format('opentype');  
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Simonetta-Italic';
+    src: url('Simonetta-Italic'); 
+    font-weight: normal;
+}
+
+header{
+    font-size: 30px;  
+    font-style: normal; 
+    text-align: center;  
+    color: white;
+}
+
+
+  
+
+h1{ font-family: 'Lobster', Times, serif; 
+font-style: italic;} 
+
+h2{
+    font-size: 20px; 
+    margin-top: -45px;
+}
+ 
+p[id = "p1"]{  
+   color: white;
+   margin-top: 0px; 
+   font-family: 'Simonetta-Italic';
+}
+
+input[name = "tbt1"]{  
+    color: white;
+    border-color: white;
+    background-color: #312e37; 
+    border-radius: 5px; 
+    
+} 
+
+input[value = "Gerar"]{ 
+    font-family: 'Simonetta-Italic';
+    color: white;
+    border-color: white;
+    background-color: #312e37; 
+    border-radius: 5px; 
+    margin-top: 20px; 
+}
+
+div[id = "gera1"]{  
+    text-align: center; 
+}
+
+div[id = "tabua1"]{ 
+  text-align: center;   
+  border: 2px solid black; 
+  margin: 20px auto;  
+  width: 200px;  
+  border-radius: 10px; 
+  border-color: white;
+} 
+
+div[id = tabua0]{
+    text-align: center;
+    margin-top: 60px; 
+}
+
+select[name = "tabuada"]{
+    font-family: 'Simonetta-Italic';
+  background-color: #312e37; 
+  border-color: white;
+  border-radius: 10px; 
+  color: white; 
+  width: 100px;  
+  overflow: hidden; 
+  text-align: center; 
+  width: 500px;
+  
+}
+
+body{ 
+    background-color:#312e37;
+}

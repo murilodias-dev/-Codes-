@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sumana:wght@400;700&display=swap');
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+} 
+
+
+body {
+    background-color: #F4E1C1;
+    height: 100vh;
+    overflow-y: visible; 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    overflow-x: hidden; 
+} 
+ 
+
+
+
+#Cron-d{
+    display: flex;
+    position: absolute;
+    
+
+    transform: translate(-50%, -50%);
+    top: 425px;
+    left: 50%;         
+    width: 420px;
+    height: 75px;
+
+
+    text-align: center;
+    justify-content: center; 
+    align-items: center;  
+   
+    background-color: #E19055; 
+    width: 370px; 
+    height: 220px;  
+    border: 6px solid;
+    border-radius: 83px;  
+    border-color: #c7804d;
+        
+    
+}
+
+#Cron-p{
+   font-family: "Cormorant Infant", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 100px;
+   
+
+    color: white; 
+    font-family: "Sumana", serif;
+    font-weight: 400;
+    font-style: normal; 
+    text-align: center;   
+}
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+  } 
+  
+  #sidebar {
+      font-size: 22px;
+      display: flex;
+      flex-direction: column; 
+      justify-content: space-between; 
+      background-color: #e49921;
+      width: 90px; 
+      height: 100vh; 
+      position: fixed; 
+      top: 0; 
+      left: 0;   
+      transition: all .5s;
+      min-width: 82px; 
+      z-index: 10; 
+  }
+  
+  #sidebar_content{
+      padding: 10px;
+  } 
+  
+  #side_items {
+      display: flex;
+      flex-direction: column;
+      gap: 8px; 
+      list-style: none; 
+  } 
+  
+  .side-item{ 
+      border-radius: 8px;
+      padding: 14px; 
+      cursor: pointer; 
+  
+  } 
+  
+  .side-item.active{
+      background-color: #ffffff;
+  }
+  
+  .side-item:hover:not(.active){
+      background-color: rgb(255, 255, 255); 
+  } 
+  
+  .side-item a {
+      text-decoration: none; 
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      color: rgb(46, 44, 44);
+  } 
+  
+  .side-item a { 
+      display: flex; 
+      align-items: center;
+      justify-content: center;  
+      width: 50px; 
+      height: 25px; 
+      gap: 14px; 
+      justify-content: center;
+  } 
+  
+  #open_btn {
+      position: absolute; 
+      top: 30px; 
+      right: -10px;
+      z-index: 1000;  
+      background-color:#000000; 
+      border-radius: 100%; 
+      width: 20px;
+      height: 20px;  
+      border: none;
+      cursor: pointer; 
+   } 
+
+   #open_btn_icon{
+    color: white;
+   }
+  
+   .item-description{ 
+      width: 0px;
+      overflow: hidden; 
+      white-space: nowrap; 
+      text-overflow: ellipsis; 
+      font-size: 1;  
+      transition: width .6s; 
+      height: 0px; 
+    } 
+  
+    #sidebar.open-sidebar {
+      min-width: 15%; 
+    } 
+  
+    #sidebar.open-sidebar .item-description{
+      overflow: visible; 
+      height: auto;
+    } 
+  
+    #sidebar.open-sidebar .side.item a{
+      justify-content: flex-start; 
+      gap: 14px;
+    }   
+      
+
+    #play_btn{ 
+        background: none;  
+        border: none;   
+        color: #ffffff;      
+        font-size: 24px;   
+    }
+ 
+    #reset_btn{ 
+        background: none;  
+        border: none;   
+        color: #ffffff;      
+        font-size: 24px;  
+        top: 200px; 
+    }
+ 
+    
+    #btn-p{   
+        display: flex;
+        position: absolute;
+        
+
+        transform: translate(-50%, -50%);
+        top: 700px;
+        left: 50%;         
+        width: 318px;
+        height: 75px; 
+        
+        
+        flex-direction: column;
+        text-align: center;
+        justify-content: center; 
+        align-items: center;  
+        background-color: #E19055; 
+        
+        border-radius: 50px;
+    } 
+
+    #btn-b{   
+        display: flex;
+        position: absolute;
+        
+
+        transform: translate(-50%, -50%);
+        top: 800px;
+        left: 50%;         
+        width: 318px;
+        height: 75px;
+    
+
+        text-align: center;
+        justify-content: center; 
+        align-items: center; 
+        background-color: #E19055; 
+
+        
+        border-radius: 50px;
+    } 
+
+   
+

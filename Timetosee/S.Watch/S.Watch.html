@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="S.Watch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
+    <title>Stop Watch</title>
+</head>
+<body> 
+    <header>
+        <nav id="sidebar"> 
+            <div id="sidebar_content">  
+                <ul id="side_items"> 
+                    
+                    <li class="side-item">
+                        <a href="http://127.0.0.1:5500/Time.site/Info/Info.html#">
+                            <i class="fa-solid fa-info"></i> 
+                            <span class="item-description">Info</span>
+                        </a>
+                    </li>  
+    
+                    <li class="side-item">
+                        <a href="http://127.0.0.1:5500/Time.site/Home/Home.html">
+                            <i class="fa-solid fa-house"></i> 
+                            <span class="item-description">Home</span>
+                        </a>
+                    </li> 
+    
+                    <li class="side-item">
+                        <a href="http://127.0.0.1:5500/Time.site/Relogio.site/Relogio.html">
+                            <i class="fa-regular fa-clock"></i>
+                            <span class="item-description">Clock</span>
+                        </a>  
+                    </li>
+    
+                        <li class="side-item">
+                            <a href="http://127.0.0.1:5500/Time.site/Timer/Timer.html">
+                            <i class="fa-solid fa-hourglass-end"></i>
+                            <span class="item-description">
+                            Timer
+                            </span>
+                            </a>  
+                    </li> 
+                    
+    
+                    <li class="side-item active">
+                        <a href="#">
+                        <i class="fa-solid fa-stopwatch"></i> 
+                        <span class="item-description">
+                        S.Watch
+                        </span>
+                        </a>  
+                    </li> 
+    
+                </ul> 
+                <button id="open_btn"><i id="open_btn_icon" class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav> 
+
+    </header>
+    
+    <section>
+        <div id="Cron-d">
+            <p id="Cron-p">0.0</p>
+        </div>
+        
+        
+        <div id="btn-p">
+        <button id="play_btn"><i class="fa-solid fa-play"></i></button>
+        </div>
+        <div id="btn-b">
+        <button id="reset_btn"><i class="fa-solid fa-rotate-right"></i></button></div>
+        </div> 
+       
+        
+    </section>
+
+    <footer>
+
+    </footer>
+    
+    <script src="S.Watch.js"></script>
+</body>
+</html>

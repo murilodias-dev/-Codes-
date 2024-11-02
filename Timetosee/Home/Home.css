@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    overflow-y: visible; 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    overflow-x: hidden; 
+} 
+
+#rosarivo-regular {
+    font-family: "Rosarivo", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.julius-sans-one-regular {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    text-align: center; 
+    font-size: 55px; 
+    color: #3A4487; 
+    margin: 130px auto 0 auto;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+} 
+
+.p1{ 
+    font-size: 20px;
+    width: 660px;
+    height: 106px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 0 auto; 
+}
+
+.marquee-container {
+    position: relative;
+    width: 100%;
+    height: 200px; 
+    overflow: visible; 
+    z-index: 1;  
+}
+
+.marquee-text { 
+    display: flex;
+    position: absolute;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite; 
+    font-size: 41px; 
+    color: #00000048;  
+    gap: 60px;
+    
+} 
+
+.marquee-text2 {
+    position: absolute; 
+    left: 0;
+    top: 115px; 
+    display: flex;
+    animation: marquee 15s linear infinite;
+    font-size: 41px;
+    color: #ffffff48;
+    gap: 60px;
+}
+
+
+
+@keyframes marquee {
+    0% { transform: translateX(1500px); }
+    100% { transform: translateX(-100%); }
+}
+
+#elipse-text {
+    position: relative;
+    z-index: 1; 
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 35px; 
+    padding: 40px;  
+    padding-left: 650px;  
+    color: white;  
+    margin-top: -900px; 
+}
+
+
+.ajust-p{
+ width: 302px;
+ height: 73px;
+ font-size: 12px; 
+ font-family: "Martel", serif;
+ font-weight: 600;
+ font-style: normal; 
+ 
+} 
+
+.ajust-h{
+  font-size: 21px;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto; 
+
+}  
+
+.ajust-h1{ 
+    padding-top: 20px;
+    font-size: 21px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto; 
+  
+  } 
+
+#container-lat { 
+    padding-top: 735px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 60px; 
+    padding-left: 1000px; 
+    margin-top: -1200px; 
+}
+
+.ajust-divlps { 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px;
+    display: flex;
+    color: white;
+    height: 100px; 
+    width: 125px; 
+    box-sizing: border-box;  
+    border-radius: 19px;
+    position: relative; 
+} 
+
+.ajust-divlps1 {
+    background: linear-gradient(to bottom, #35125B 0%, #7126C1 100%);
+    padding-top: 61px; 
+    
+}
+
+.ajust-divlps2 {
+    background: linear-gradient(to bottom, #797010 0%, #DFCF1E 100%);
+    color: black; 
+    padding-top: 61px;
+}
+
+.ajust-divlps3 {
+    padding-top: 61px;    
+    background: linear-gradient(to bottom, #000000 0%, #666666 100%);
+}
+
+.ajust-button {  
+    display: flex;
+    box-sizing: border-box; 
+    justify-content: center;
+    align-items: center;   
+    height: 38px; 
+    padding: 20px 33px; 
+    border: none;
+    cursor: pointer; 
+    margin-top: auto; 
+    
+
+    border-radius: 20px; 
+    background-color: white;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+ 
+
+#lat-icon1{
+    color: #ffffff48; 
+    font-size: 30px; 
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+} 
+
+
+#lat-icon2{
+    color: #ffffff48; 
+    font-size: 30px; 
+    position: absolute;
+    top: 10px;
+    left: 10px;
+} 
+
+
+#lat-icon3{
+    color: #ffffff48; 
+    font-size: 30px; 
+    position: absolute;
+    top: 10px;
+    left: 10px;
+} 
+
+
+.svg-container svg { 
+    width: 100%;
+    height: 100%; 
+    transform: scale(4.0) translateY(-150px); 
+    position: relative; 
+    top: 0; 
+    left: 0;
+    z-index: -1; 
+}
+
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+} 
+
+#sidebar {
+    font-size: 22px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    background-color: #1B89E3;
+    width: 90px; 
+    height: 100vh; 
+    position: fixed; 
+    top: 0; 
+    left: 0;   
+    transition: all .5s;
+    min-width: 82px; 
+    z-index: 10; 
+}
+
+#sidebar_content{
+    padding: 10px;
+} 
+
+#side_items {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+    list-style: none; 
+} 
+
+.side-item{ 
+    border-radius: 8px;
+    padding: 14px; 
+    cursor: pointer; 
+
+} 
+
+.side-item.active{
+    background-color: #ffffff;
+}
+
+.side-item:hover:not(.active){
+    background-color: rgb(255, 255, 255);
+} 
+
+.side-item a {
+    text-decoration: none; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: rgb(46, 44, 44);
+} 
+
+.side-item a { 
+    display: flex; 
+    align-items: center;
+    justify-content: center;  
+    width: 50px; 
+    height: 25px; 
+    gap: 14px; 
+    justify-content: center;
+} 
+
+#open_btn {
+    position: absolute; 
+    top: 30px; 
+    right: -10px;
+    z-index: 1000;  
+    border-radius: 100%; 
+    width: 20px;
+    height: 20px;  
+    border: none;
+    cursor: pointer; 
+ } 
+
+ .item-description{ 
+    width: 0px;
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    font-size: 1;  
+    transition: width .6s; 
+    height: 0px; 
+  } 
+
+  #sidebar.open-sidebar {
+    min-width: 15%; 
+  } 
+
+  #sidebar.open-sidebar .item-description{
+    overflow: visible; 
+    height: auto;
+  } 
+
+  #sidebar.open-sidebar .side.item a{
+    justify-content: flex-start; 
+    gap: 14px;
+  }
